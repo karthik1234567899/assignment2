@@ -11,7 +11,7 @@ resource "aws_instance" "example" {
         encrypted             = false
         iops                  = 100
         volume_size           = 8
-        volume_type           = "gp2"
+        volume_type           = "io2"
         tags = {
           "key" = "terraform"
         }
